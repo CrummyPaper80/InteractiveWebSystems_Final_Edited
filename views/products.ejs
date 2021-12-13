@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computers R US</title>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- boxicons -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <!-- app css -->
-    <link rel="stylesheet" href="../public/css/grid.css">
-    <link rel="stylesheet" href="../public/css/app.css">
-</head>
-
-<body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Computers R Us</title>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- boxicons -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- app css -->
+        <link rel="stylesheet" href="../public/css/grid.css">
+        <link rel="stylesheet" href="../public/css/app.css">
+    </head>
+    
+    <body>
+    
     <!-- header -->
     <header>
         <!-- mobile menu -->
         <div class="mobile-menu bg-second">
-            <a href="#" class="mb-logo">Computers R US</a>
+            <a href="/" class="mb-logo">Computers R Us</a>
             <span class="mb-menu-toggle" id="mb-menu-toggle">
                 <i class='bx bx-menu'></i>
             </span>
@@ -38,24 +39,23 @@
                 <div class="top-header container">
                     <ul class="devided">
                         <li>
-                            <a href="#">+16164300720</a>
+                            <a href="tel:+16164300720">Call us at +16164300720</a>
                         </li>
                         <li>
-                            <a href="#">computersrus@gmail.com</a>
+                            <a href="mailto:computersrus2002@gmail.com">Email us at computersrus2002@gmail.com</a>
                         </li>
                     </ul>
                     <ul class="devided">
                         <li class="dropdown">
-                            <a href="">USD</a>
+                            <a href="#">USD</a>
                             <i class='bx bxs-chevron-down'></i>
                             <ul class="dropdown-content">
-                                <li><a href="#">VND</a></li>
-                                <li><a href="#">JPY</a></li>
                                 <li><a href="#">EUR</a></li>
+                                <li><a href="#">MXN</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="">ENGLISH</a>
+                            <a href="#">ENGLISH</a>
                             <i class='bx bxs-chevron-down'></i>
                             <ul class="dropdown-content">
                                 <li><a href="#">FRENCH</a></li>
@@ -69,14 +69,9 @@
             <!-- mid header -->
             <div class="bg-main">
                 <div class="mid-header container">
-                    <a href="#" class="logo">Computers R US</a>
-                    <div class="search">
-                        <input type="text" placeholder="Search">
-                        <i class='bx bx-search-alt'></i>
-                    </div>
+                    <a href="/" class="logo">Computers R Us</a>
                     <ul class="user-menu">
-                        <li><a href="/login"><i class='bx bx-user-circle'></i></a></li>
-                        <li><a href="/cart"><i class='bx bx-cart'></i></a></li>
+                        <li class="cart"><a href="/cart"><i class='bx bx-cart'></i>Cart<span> 0</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -85,18 +80,18 @@
             <div class="bg-second">
                 <div class="bottom-header container">
                     <ul class="main-menu">
-                        <li><a href="#">home</a></li>
+                        <li><a href="/">Home</a></li>
                         <!-- mega menu -->
                         <li class="mega-dropdown">
-                            <a href="./products.html">Shop<i class='bx bxs-chevron-down'></i></a>
+                            <a href="/products">Shop<i class='bx bxs-chevron-down'></i></a>
                             <div class="mega-content">
                                 <div class="row">
                                     <div class="col-3 col-md-12">
                                         <div class="box">
                                             <h3>Categories</h3>
                                             <ul>
-                                                <li><a href="#">Intel Computers</a></li>
-                                                <li><a href="#">AMD Computers</a></li>
+                                                <li><a href="/product-detail">AMD</a></li>
+                                                <li><a href="/product-detail">Intel</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -104,15 +99,29 @@
                                 <div class="row img-row">
                                     <div class="col-3">
                                         <div class="box">
-                                            <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                                            <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/AMD_prebuilt_cpu.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/AMD_prebuilt_gpu.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/Intel_CPU.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <!-- end mega menu -->
-                        <li><a href="#">contact</a></li>
-                        <li><a href="#">search</a></li>
+                        <li><a href="/contact_us">contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -127,9 +136,9 @@
         <div class="container">
             <div class="box">
                 <div class="breadcumb">
-                    <a href="./index.html">home</a>
+                    <a href="/">home</a>
                     <span><i class='bx bxs-chevrons-right'></i></span>
-                    <a href="./products.html">all products</a>
+                    <a href="/products">all products</a>
                 </div>
             </div>
             <div class="box">
@@ -302,6 +311,93 @@
                         </div>
                         <div class="box">
                             <div class="row" id="products"></div>
+                            <div class="col-4 col-md-6 col-sm-12">
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                        <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                                        <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <div class="product-btn">
+                                            <a href="/product-detail" class="btn-flat btn-hover btn-shop-now">shop now</a>
+                                            <button class="btn-flat btn-hover btn-cart-add">
+                                                <i class='bx bxs-cart-add'></i>
+                                            </button>
+                                        </div>
+                                        <div class="product-card-name">
+                                            AMD Prebuilt 1
+                                        </div>
+                                        <div class="product-card-price">
+                                            <span><del>$600</del></span>
+                                            <span class="curr-price">$500</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                        <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                                        <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <div class="product-btn">
+                                            <a href="/product-detail" class="btn-flat btn-hover btn-shop-now">shop now</a>
+                                            <button class="btn-flat btn-hover btn-cart-add">
+                                                <i class='bx bxs-cart-add'></i>
+                                            </button>
+                                        </div>
+                                        <div class="product-card-name">
+                                            AMD Prebuilt 2
+                                        </div>
+                                        <div class="product-card-price">
+                                            <span><del>$1000</del></span>
+                                            <span class="curr-price">$900</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-6 col-sm-12">
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                        <img src="../public/media/images/new/Intel_prebuilt.jpg" alt="">
+                                        <img src="../public/media/images/new/Intel_prebuilt.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <div class="product-btn">
+                                            <a href="/product-detail" class="btn-flat btn-hover btn-shop-now">shop now</a>
+                                            <button class="btn-flat btn-hover btn-cart-add">
+                                                <i class='bx bxs-cart-add'></i>
+                                            </button>
+                                        </div>
+                                        <div class="product-card-name">
+                                            Intel Prebuilt 1
+                                        </div>
+                                        <div class="product-card-price">
+                                            <span><del>$600</del></span>
+                                            <span class="curr-price">$500</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                        <img src="../public/media/images/new/Intel_prebuilt.jpg" alt="">
+                                        <img src="../public/media/images/new/Intel_prebuilt.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <div class="product-btn">
+                                            <a href="/product-detail" class="btn-flat btn-hover btn-shop-now">shop now</a>
+                                            <button class="btn-flat btn-hover btn-cart-add">
+                                                <i class='bx bxs-cart-add'></i>
+                                            </button>
+                                        </div>
+                                        <div class="product-card-name">
+                                            Intel Prebuilt 2
+                                        </div>
+                                        <div class="product-card-price">
+                                            <span><del>$1000</del></span>
+                                            <span class="curr-price">$900</span>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                         <div class="box">
                             <ul class="pagination">
@@ -319,6 +415,8 @@
             </div>
         </div>
     </div>
+
+    
     <!-- end products content -->
 
     <!-- footer -->
@@ -328,56 +426,35 @@
                 <div class="col-3 col-md-6">
                     <h3 class="footer-head">Products</h3>
                     <ul class="menu">
-                        <li><a href="#">Help center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">product help</a></li>
-                        <li><a href="#">warranty</a></li>
-                        <li><a href="#">order status</a></li>
-                    </ul>
-                </div>
-                <div class="col-3 col-md-6">
-                    <h3 class="footer-head">services</h3>
-                    <ul class="menu">
-                        <li><a href="#">Help center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">product help</a></li>
-                        <li><a href="#">warranty</a></li>
-                        <li><a href="#">order status</a></li>
+                        <li><a href="/product-detail">AMD</a></li>
+                        <li><a href="/product-detail">Intel</a></li>
                     </ul>
                 </div>
                 <div class="col-3 col-md-6">
                     <h3 class="footer-head">support</h3>
                     <ul class="menu">
-                        <li><a href="#">Help center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">product help</a></li>
-                        <li><a href="#">warranty</a></li>
-                        <li><a href="#">order status</a></li>
+                        <li><a href="/contact_us">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col-3 col-md-6 col-sm-12">
                     <div class="contact">
                         <h3 class="contact-header">
-                            Computers R US
+                            Computers R Us
                         </h3>
                         <ul class="contact-socials">
-                            <li><a href="#">
+                            <li><a href="https://facebook.com">
                                     <i class='bx bxl-facebook-circle'></i>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="https://instagram.com">
                                     <i class='bx bxl-instagram-alt'></i>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="https://youtube.com">
                                     <i class='bx bxl-youtube'></i>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="https://twitter.com">
                                     <i class='bx bxl-twitter'></i>
                                 </a></li>
                         </ul>
-                    </div>
-                    <div class="subscribe">
-                        <input type="email" placeholder="ENTER YOUR EMAIL">
-                        <button>subscribe</button>
                     </div>
                 </div>
             </div>
@@ -386,8 +463,12 @@
     <!-- end footer -->
 
     <!-- app js -->
-    <script src="./js/app.js"></script>
-    <script src="./js/products.js"></script>
+    <script src="../public/js/app.js"></script>
+    <script src="../public/js/slide.js"></script>
+    <!-- js components -->
+    <script src="../public/js/product-detail.js"></script>
+    <script src="../public/js/products.js"></script>
+    <script src="../public/js/cart.js"></script>
 </body>
 
 </html>
