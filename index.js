@@ -12,14 +12,6 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get('/amd', function(req, res) {
-  res.render('../views/amd.ejs');
-});
-
-app.get('/intel', function(req, res) {
-  res.render('../views/intel.ejs');
-});
-
 app.get('/product-detail', function(req, res) {
   res.render('../views/product-detail.ejs');
 });
